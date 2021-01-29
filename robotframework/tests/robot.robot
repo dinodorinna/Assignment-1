@@ -1,6 +1,5 @@
 *** Settings ***
-Library           SeleniumLibrary
-
+Resource   ${CURDIR}/../resources/common.robot
 Suite Teardown    Close Browser
 
 *** Variables ***
